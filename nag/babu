@@ -1,0 +1,10 @@
+priovider "aws"{
+region="ap-south-eat-1"
+access_key=""
+secret_key=""}
+
+resource "aws_vpc" "aws"{
+cidr_block=10.0.0.0/24
+tages{
+names="babu"
+}
